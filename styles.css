@@ -6,7 +6,7 @@
 }
 
 .header {
-    padding: 17%;
+    padding: 28%;
     color: white;
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
     background-image: url('./images/img1.JPG');
@@ -49,6 +49,16 @@ li, a {
     padding: 10px;
 
 }
+
+.header_items a {
+    padding: 5px, 10px;
+}
+
+.header_items a:hover {
+    background-color: white;
+    color: silver;
+}
+
 .abMe img {
     height: 250px;
 }
@@ -75,15 +85,27 @@ li, a {
     text-align: center;
     width: 100%;
     margin: auto;
-    padding: 40px;
+    padding: 60px;
 }
+
+.port p {
+    padding: 20px;
+}
+
 .serv {
     background-color: aliceblue;
     display: inline-block;
     text-align: center;
     width: 100%;
     margin: auto;
-    padding: 40px;
+    padding: 100px;
+}
+
+.serv li {
+    font-weight: 500;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 10px;
 }
 
 .float-right {
@@ -96,5 +118,10 @@ li, a {
     text-align: center;
     width: 100%;
     margin: auto;
+    padding: 40px;
+}
+
+.cInfo p {
+    display: inline;
     padding: 40px;
 }
