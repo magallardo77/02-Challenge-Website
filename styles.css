@@ -123,5 +123,6 @@ li, a {
 
 .cInfo p {
     display: inline;
+    margin: 20px;
     padding: 40px;
 }
