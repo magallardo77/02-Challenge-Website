@@ -1,0 +1,89 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+.hero {
+    padding: 17%;
+    color: white;
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    background-image: url('./image_6487327.JPG');
+    background-size: cover;
+    background-position: bottom;
+}
+
+h1 {
+    font-weight: bold;
+
+}
+
+body {
+    margin: 0;
+}
+
+li, a {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+.header-container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.header_items {
+
+    background-color: silver;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px;
+
+}
+img {
+    height: 100px;
+}
+
+.abMe {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+.port {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+.serv {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+.cInfo {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+}
