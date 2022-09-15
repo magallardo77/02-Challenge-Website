@@ -5,17 +5,20 @@
     padding: 0%;
 }
 
-.hero {
+.header {
     padding: 17%;
     color: white;
     font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
-    background-image: url('./image_6487327.JPG');
+    background-image: url('./images/img1.JPG');
     background-size: cover;
     background-position: bottom;
 }
 
 h1 {
-    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    font-weight: bolder;
+    color: floralwhite;
 
 }
 
@@ -46,14 +49,19 @@ li, a {
     padding: 10px;
 
 }
-img {
-    height: 100px;
+.abMe img {
+    height: 250px;
+}
+
+.serv img {
+    height: 150px;
 }
 
 .abMe {
+    background-color: aliceblue;
     display: inline-block;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 40px;
 }
@@ -62,16 +70,18 @@ img {
     margin-right: 25px;
 }
 .port {
+    background-color: aliceblue;
     display: inline-block;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 40px;
 }
 .serv {
+    background-color: aliceblue;
     display: inline-block;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 40px;
 }
@@ -81,9 +91,10 @@ img {
     margin-left: 25px;
 }
 .cInfo {
+    background-color: aliceblue;
     display: inline-block;
     text-align: center;
-    width: 80%;
+    width: 100%;
     margin: auto;
     padding: 40px;
 }
